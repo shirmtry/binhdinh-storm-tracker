@@ -40,7 +40,7 @@ npm run preview  # xem thử bản build
 
 ## 🌐 Deploy
 
-- Vercel production: xem `deploy_url.txt` (cập nhật sau khi deploy ngày 09/11/2026).
+- Vercel production: **https://binhdinh-storm-tracker.vercel.app** (deploy ngày 09/11/2026, xem `deploy_url.txt`).
 - Cấu hình `vercel.json`: build `npm run build`, output `dist`, rewrite mọi route → `/index.html`.
 
 ## 📞 Liên hệ HTK – 0396241674 – 09/11/2026
