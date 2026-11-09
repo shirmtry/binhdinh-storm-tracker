@@ -1,0 +1,97 @@
+{
+  "label": "Dữ liệu mô phỏng – cập nhật 09/11/2026",
+  "storms": [
+    {
+      "id": "bao9",
+      "name": "Bão số 9/2026 (SAOLA-26)",
+      "color": "#ff5d5d",
+      "landfall": "Quy Nhơn",
+      "track": [
+        { "t": "07/11 06:00", "x": 760, "y": 330, "wind": 75, "status": "past" },
+        { "t": "07/11 18:00", "x": 700, "y": 345, "wind": 85, "status": "past" },
+        { "t": "08/11 06:00", "x": 640, "y": 355, "wind": 95, "status": "past" },
+        { "t": "08/11 18:00", "x": 575, "y": 368, "wind": 105, "status": "past" },
+        { "t": "09/11 06:00", "x": 505, "y": 380, "wind": 115, "status": "current" },
+        { "t": "09/11 18:00", "x": 435, "y": 392, "wind": 118, "status": "forecast" },
+        { "t": "10/11 06:00", "x": 370, "y": 400, "wind": 110, "status": "forecast" },
+        { "t": "10/11 12:00", "x": 320, "y": 405, "wind": 90, "status": "forecast" },
+        { "t": "10/11 18:00", "x": 275, "y": 410, "wind": 60, "status": "forecast" }
+      ]
+    },
+    {
+      "id": "bao10",
+      "name": "Bão số 10/2026 (HAIKUI-26)",
+      "color": "#ffb347",
+      "landfall": "Phù Cát – Hoài Nhơn",
+      "track": [
+        { "t": "08/11 06:00", "x": 770, "y": 90, "wind": 65, "status": "past" },
+        { "t": "08/11 18:00", "x": 710, "y": 110, "wind": 75, "status": "past" },
+        { "t": "09/11 06:00", "x": 645, "y": 130, "wind": 85, "status": "current" },
+        { "t": "09/11 18:00", "x": 580, "y": 148, "wind": 95, "status": "forecast" },
+        { "t": "10/11 06:00", "x": 515, "y": 162, "wind": 102, "status": "forecast" },
+        { "t": "10/11 18:00", "x": 450, "y": 175, "wind": 108, "status": "forecast" },
+        { "t": "11/11 06:00", "x": 390, "y": 185, "wind": 100, "status": "forecast" },
+        { "t": "11/11 12:00", "x": 335, "y": 195, "wind": 80, "status": "forecast" },
+        { "t": "11/11 18:00", "x": 290, "y": 205, "wind": 55, "status": "forecast" }
+      ]
+    }
+  ],
+  "timeline": [
+    { "time": "09/11 06:00", "hour": 0, "wind": 115, "level": "red", "event": "Bão số 9 cách bờ Quy Nhơn ~180km, gió cấp 11. Bão số 10 hướng Phù Cát – Hoài Nhơn." },
+    { "time": "09/11 12:00", "hour": 6, "wind": 117, "level": "red", "event": "Quy Nhơn cấm biển, 1.240 tàu cá đã neo đậu. Ngập úng nội đô bắt đầu." },
+    { "time": "09/11 18:00", "hour": 12, "wind": 118, "level": "red", "event": "Bão số 9 giật cấp 13, sóng biển 5–7m. Di dân Nhơn Lý, Nhơn Hải trong đêm." },
+    { "time": "10/11 00:00", "hour": 18, "wind": 115, "level": "red", "event": "Mất điện diện rộng Quy Nhơn – Tuy Phước. 20 điểm trú ẩn mở cửa 24/24." },
+    { "time": "10/11 06:00", "hour": 24, "wind": 110, "level": "red", "event": "Tâm bão số 9 tiến sát bờ Quy Nhơn. Lũ sông Kôn dâng nhanh, đe dọa Tuy Phước, An Nhơn." },
+    { "time": "10/11 12:00", "hour": 30, "wind": 90, "level": "orange", "event": "Bão số 9 đổ bộ Quy Nhơn, suy yếu nhanh khi vào đất liền. Cây đổ, tốc mái nhiều nhà dân." },
+    { "time": "10/11 18:00", "hour": 36, "wind": 60, "level": "orange", "event": "Bão số 9 suy yếu thành áp thấp. Bão số 10 tăng tốc, gió biển Phù Cát cấp 9–10." },
+    { "time": "11/11 00:00", "hour": 42, "wind": 95, "level": "red", "event": "Bão số 10 cách bờ Hoài Nhơn ~120km. Xói lở bờ biển Cát Tiến, Mỹ Thành nghiêm trọng." },
+    { "time": "11/11 06:00", "hour": 48, "wind": 100, "level": "red", "event": "Sạt lở cục bộ An Lão, Vĩnh Thạnh, Tây Sơn do mưa 250mm. Cảnh báo cấp độ rủi ro thiên tai cấp 3." },
+    { "time": "11/11 12:00", "hour": 54, "wind": 80, "level": "orange", "event": "Bão số 10 đổ bộ Phù Cát – Hoài Nhơn. Sân bay Phù Cát tạm dừng khai thác." },
+    { "time": "11/11 18:00", "hour": 60, "wind": 55, "level": "yellow", "event": "Bão số 10 suy yếu. Lũ sông Kôn đạt đỉnh, ngập Tuy Phước 0,5–1m." },
+    { "time": "12/11 00:00", "hour": 66, "wind": 35, "level": "yellow", "event": "Gió giảm cấp 5. Khôi phục điện từng khu vực, dự kiến 3–7 ngày toàn tỉnh." },
+    { "time": "12/11 06:00", "hour": 72, "wind": 25, "level": "green", "event": "Hai bão tan. Tổng hợp thiệt hại, tiếp tục cảnh báo lũ và sạt lở sau bão." }
+  ],
+  "shelters": [
+    { "id": 1, "name": "Trường THPT chuyên Lê Quý Đôn", "district": "Quy Nhơn", "address": "18 Nguyễn Huệ, TP Quy Nhơn", "capacity": 800, "status": "Đang mở", "phone": "0256 3822 101" },
+    { "id": 2, "name": "Nhà văn hóa phường Trần Phú", "district": "Quy Nhơn", "address": "45 Trần Phú, TP Quy Nhơn", "capacity": 350, "status": "Đang mở", "phone": "0256 3822 102" },
+    { "id": 3, "name": "Trường THCS Nhơn Hải", "district": "Quy Nhơn", "address": "Xã Nhơn Hải, TP Quy Nhơn", "capacity": 400, "status": "Đang mở", "phone": "0256 3822 103" },
+    { "id": 4, "name": "UBND xã Nhơn Lý (nhà kiên cố)", "district": "Quy Nhơn", "address": "Xã Nhơn Lý, TP Quy Nhơn", "capacity": 500, "status": "Đang mở", "phone": "0256 3822 104" },
+    { "id": 5, "name": "Nhà thi đấu Thể dục Thể thao tỉnh", "district": "Quy Nhơn", "address": "Lê Hồng Phong, TP Quy Nhơn", "capacity": 1500, "status": "Đang mở", "phone": "0256 3822 105" },
+    { "id": 6, "name": "Trường THPT số 1 Phù Cát", "district": "Phù Cát", "address": "TT Ngô Mây, Phù Cát", "capacity": 700, "status": "Đang mở", "phone": "0256 3822 201" },
+    { "id": 7, "name": "Nhà văn hóa xã Cát Tiến", "district": "Phù Cát", "address": "Xã Cát Tiến, Phù Cát", "capacity": 300, "status": "Đang mở", "phone": "0256 3822 202" },
+    { "id": 8, "name": "Trường Tiểu học Cát Minh", "district": "Phù Cát", "address": "Xã Cát Minh, Phù Cát", "capacity": 450, "status": "Sẵn sàng", "phone": "0256 3822 203" },
+    { "id": 9, "name": "Trạm y tế xã Cát Khánh", "district": "Phù Cát", "address": "Xã Cát Khánh, Phù Cát", "capacity": 200, "status": "Sẵn sàng", "phone": "0256 3822 204" },
+    { "id": 10, "name": "Trường THPT số 2 Phù Cát", "district": "Phù Cát", "address": "Xã Cát Hanh, Phù Cát", "capacity": 600, "status": "Sẵn sàng", "phone": "0256 3822 205" },
+    { "id": 11, "name": "Trường THPT Hoài Nhơn", "district": "Hoài Nhơn", "address": "TX Hoài Nhơn", "capacity": 750, "status": "Đang mở", "phone": "0256 3822 301" },
+    { "id": 12, "name": "Nhà văn hóa phường Tam Quan", "district": "Hoài Nhơn", "address": "P. Tam Quan, TX Hoài Nhơn", "capacity": 400, "status": "Đang mở", "phone": "0256 3822 302" },
+    { "id": 13, "name": "Trường THCS Hoài Thanh", "district": "Hoài Nhơn", "address": "P. Hoài Thanh, TX Hoài Nhơn", "capacity": 380, "status": "Sẵn sàng", "phone": "0256 3822 303" },
+    { "id": 14, "name": "Đồn Biên phòng Cửa khẩu cảng Quy Nhơn", "district": "Quy Nhơn", "address": "Cảng Quy Nhơn, TP Quy Nhơn", "capacity": 250, "status": "Đang mở", "phone": "0256 3822 106" },
+    { "id": 15, "name": "Trường THPT Tuy Phước", "district": "Tuy Phước", "address": "TT Tuy Phước", "capacity": 650, "status": "Đang mở", "phone": "0256 3822 401" },
+    { "id": 16, "name": "Nhà văn hóa huyện Tuy Phước", "district": "Tuy Phước", "address": "TT Tuy Phước", "capacity": 300, "status": "Sẵn sàng", "phone": "0256 3822 402" },
+    { "id": 17, "name": "Trường THPT Nhơn Hòa", "district": "An Nhơn", "address": "TX An Nhơn", "capacity": 600, "status": "Đang mở", "phone": "0256 3822 501" },
+    { "id": 18, "name": "Nhà văn hóa thị xã An Nhơn", "district": "An Nhơn", "address": "P. Bình Định, TX An Nhơn", "capacity": 450, "status": "Sẵn sàng", "phone": "0256 3822 502" },
+    { "id": 19, "name": "Trường Phổ thông dân tộc nội trú An Lão", "district": "An Lão", "address": "TT An Lão, huyện An Lão", "capacity": 350, "status": "Đang mở", "phone": "0256 3822 601" },
+    { "id": 20, "name": "Nhà văn hóa huyện Vĩnh Thạnh", "district": "Vĩnh Thạnh", "address": "TT Vĩnh Thạnh", "capacity": 300, "status": "Sẵn sàng", "phone": "0256 3822 701" }
+  ],
+  "checklist": [
+    { "group": "Trước bão 48h", "items": [
+      "Theo dõi đường đi bão số 9, 10 và cảnh báo của đài khí tượng",
+      "Chằng chống nhà cửa, gia cố mái tôn, cửa sổ",
+      "Dự trữ nước uống, lương khô, mì gói đủ 3–7 ngày",
+      "Sạc đầy điện thoại, pin dự phòng, đèn pin (chuẩn bị mất điện 3–7 ngày)",
+      "Xác định điểm trú ẩn gần nhất và tuyến đường di chuyển"
+    ]},
+    { "group": "Trước bão 12h", "items": [
+      "Di dời tài sản, giấy tờ quan trọng lên cao, bọc chống nước",
+      "Tàu cá vào âu thuyền, neo đậu chắc chắn (biển động cấp 7–8)",
+      "Đưa người già, trẻ em đến điểm trú ẩn kiên cố",
+      "Ngắt cầu dao điện khu vực dễ ngập, khóa bình gas"
+    ]},
+    { "group": "Trong và sau bão", "items": [
+      "Ở trong nhà kiên cố, tránh xa cửa kính, không ra ngoài khi gió giật",
+      "Không đi qua ngầm tràn, đường ngập, khu vực sạt lở An Lão – Vĩnh Thạnh",
+      "Báo cáo sự cố khẩn cấp: 112 / 114 / 115 hoặc hotline HTK 0396241674",
+      "Chỉ dùng nước đã khử khuẩn sau lũ, đề phòng nước giếng nhiễm phèn mặn"
+    ]}
+  ]
+}
